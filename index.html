@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IPMARAS</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/ipmaras.png" alt="Logo Ipmaras" class="logo-ipmaras">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto py-1">
+                    <a class="nav-link" href="#">Beranda</a>
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                    <a class="nav-link" href="#">Kegiatan</a>
+                    <a class="nav-link" href="#">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Banner -->
+    <section class="banner" id="banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 text-center">
+                    <h1>Berkah dengan Sedekah</h1>
+                    <h2>Santunan Yatim 2024</h2>
+                    <p>Mari meriahkan kegiatan santunan yatim yang diselenggarakan oleh Ipmaras, yang akan
+                        diselenggarakan
+                        pada:</p>
+                    <div class="simply-countdown" id="simply-countdown"></div>
+                    <a href="#santunan" class="btn mt-4">Informasi Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner -->
+
+    <!-- Santunan -->
+    <section class="santunan" id="santunan">
+        <div class="container">
+            <div class="row mycard justify-content-center">
+                <div class="card col-md-8 col-10 text-center">
+                    <div class="card-header ">
+                        SANTUNAN YATIM 2024
+                    </div>
+                    <div class="card-body text-center py-1">
+                        <span>DONASI TERKUMPUL</span>
+                        <h5 class="card-title">Rp. 4.115.000</h5>
+                        <p class="card-text">Terima kasih kami ucapkan kepada para donatur yang telah berpartisipasi</p>
+                        <a href="#" class="btn mb-3">Donasi Sekarang</a>
+                    </div>
+                    <div class="card-footer text-body-secondary py-1">
+                        <p>Dilaksanakan Ahad, 07 April 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Santunan -->
+    <!-- Donasi -->
+    <section class="donasi" id="donasi">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 col-10 mb-5">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <img src="assets/bca.svg" alt="bca" class="bank py-2">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">1740424251</h5>
+                            <p class="card-text">Saddam Hussein
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <p>Kirim bukti transfer ke +62 857-1555-5503 a/n Saddam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-10 mb-5">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <img src="assets/dana.svg" alt="Dana" class="bank py-4 dana">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">085888657183
+                            </h5>
+                            <p class="card-text">Rizky Riyadi Putera
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <p>Kirim bukti transfer ke +62 858-8865-7183 a/n Rizky</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Donasi -->
+
+
+
+    <script>
+        simplyCountdown('.simply-countdown', {
+            year: 2024, // required
+            month: 4, // required
+            day: 7, // required
+            hours: 16, // Default is 0 [0-23] integer
+            minutes: 0, // Default is 0 [0-59] integer
+            seconds: 0, // Default is 0 [0-59] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'Hari', plural: 'Hari' },
+                hours: { singular: 'Jam', plural: 'Jam' },
+                minutes: { singular: 'Menit', plural: 'Menit' },
+                seconds: { singular: 'Detik', plural: 'Detik' }
+            },
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

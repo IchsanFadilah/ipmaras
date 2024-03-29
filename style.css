@@ -1,0 +1,170 @@
+:root {
+  --green: #16a85c;
+  --bg: #dcf7da;
+  --shadow: 0 2px 2px rgba(0 0 0/0.4);
+}
+
+html {
+  font-family: "ubuntu";
+  font-size: 1.2rem;
+}
+
+.logo-ipmaras {
+  width: 150px;
+}
+
+.navbar {
+  background-color: var(--bg);
+  color: black;
+}
+
+.mynavbar {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+
+.navbar .navbar-nav {
+  font-family: "ubuntu";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: var(--green);
+  color: white;
+  font-family: "ubuntu";
+  min-height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.banner h1 {
+  font-size: 3.2rem;
+  font-family: "archivo black";
+  text-shadow: var(--shadow);
+}
+
+.banner h2 {
+  font-size: 1.8rem;
+  text-shadow: var(--shadow);
+}
+
+.banner P {
+  font-size: 1rem;
+  font-weight: 300;
+  text-shadow: var(--shadow);
+}
+
+.banner a {
+  background-color: var(--bg);
+  color: #16a85c;
+  box-shadow: var(--shadow);
+}
+
+.banner a:hover {
+  background-color: #16a85c;
+  color: var(--bg);
+  border: 1px solid var(--bg);
+}
+
+.santunan {
+  background-color: var(--bg);
+  min-height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.card {
+  background-color: var(--green);
+  color: var(--bg);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.card .card-header {
+  font-family: "ubuntu";
+  font-size: 1.4rem;
+}
+
+.santunan .card .card-body h5 {
+  font-family: "archivo black";
+  color: black;
+  font-size: 2.5rem;
+}
+
+.santunan .card .card-body a {
+  background-color: var(--bg);
+  color: var(--green);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: 1px solid var(--bg);
+}
+
+.santunan .card .card-body a:hover {
+  background-color: black;
+  color: var(--bg);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: 1px solid var(--bg);
+}
+
+.santunan .card .card-footer p {
+  font-family: "ubuntu";
+  color: var(--bg);
+  padding-top: 0.5rem;
+}
+
+.card .bank {
+  scale: 1.5;
+  width: 50px;
+}
+
+.donasi .card-body h5 {
+  font-size: 2rem;
+  font-family: "ubuntu";
+}
+
+.donasi .card-footer p {
+  font-size: 0.6rem;
+  font-family: "ubuntu";
+}
+
+/* Media Queries */
+/* Extra large */
+@media (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}
+/* Laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 50px;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 5px;
+  }
+}
+
+/* Phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 40px;
+    margin: 3px;
+  }
+}
