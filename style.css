@@ -35,7 +35,7 @@ html {
   font-family: "ubuntu";
   min-height: 100vh;
   padding-top: 8rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 .banner h1 {
@@ -71,7 +71,7 @@ html {
   background-color: var(--bg);
   min-height: 100vh;
   padding-top: 8rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 .card {
@@ -125,6 +125,11 @@ html {
 .card .bank {
   width: 65px;
 }
+.donasi {
+  min-height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
 
 .donasi .card-body h5 {
   font-size: 2rem;
@@ -136,8 +141,8 @@ html {
   text-transform: uppercase;
 }
 
-.donasi .card-footer p {
-  font-size: 1rem;
+.donasi .card-footer {
+  font-size: 1.2rem;
   font-family: "ubuntu";
 }
 
