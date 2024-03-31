@@ -1,7 +1,7 @@
 :root {
   --green: #16a85c;
   --bg: #dcf7da;
-  --shadow: 0 2px 2px rgba(0 0 0/0.4);
+  --shadow: 0 2px 2px rgba(0 0 0/0.3);
 }
 
 html {
@@ -30,8 +30,14 @@ html {
 }
 
 .banner {
-  background-color: var(--green);
-  color: white;
+  background: linear-gradient(
+    to bottom right,
+    #dbc9ff,
+    #f7dbe3,
+    #01b679,
+    #91a8b3,
+    #f1601e
+  );
   font-family: "ubuntu";
   min-height: 100vh;
   padding-top: 8rem;
@@ -39,20 +45,27 @@ html {
 }
 
 .banner h1 {
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 3.2rem;
   font-family: "archivo black";
-  text-shadow: var(--shadow);
 }
 
 .banner h2 {
-  font-size: 1.8rem;
-  text-shadow: var(--shadow);
+  color: black;
+  font-size: 2rem;
 }
 
 .banner P {
-  font-size: 1rem;
+  color: black;
+  font-size: 1.2rem;
   font-weight: 300;
-  text-shadow: var(--shadow);
 }
 
 .banner a {
@@ -184,7 +197,10 @@ html {
     min-height: 50vh;
   }
   .simply-countdown > .simply-section {
-    padding: 40px;
-    margin: 3px;
+    padding: 30px;
+    margin: 5px;
+  }
+  .logo-ipmaras {
+    width: 100px;
   }
 }
