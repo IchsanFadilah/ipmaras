@@ -51,6 +51,13 @@ html {
   font-weight: bold;
 }
 
+.nav-link {
+  color: black;
+  font-family: "Suisse";
+  font-size: 1rem;
+  margin-left: 1.2rem;
+}
+
 .banner {
   background: linear-gradient(
     to bottom right,
@@ -62,8 +69,15 @@ html {
   );
   font-family: "Apple Garamond";
   min-height: 100vh;
-  padding-top: 8rem;
+  padding-top: 1rem;
   padding-bottom: 4rem;
+}
+
+.banner #image {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
 }
 
 .banner h1 {
@@ -75,7 +89,7 @@ html {
   );
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Apple Garamond";
 }
 
@@ -126,7 +140,7 @@ html {
 .santunan .card .card-body h5 {
   font-family: "Apple Garamond";
   color: black;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .santunan .card .card-body a {
