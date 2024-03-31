@@ -4,18 +4,39 @@
   --shadow: 0 2px 2px rgba(0 0 0/0.3);
 }
 
+@font-face {
+  font-family: "Apple Garamond";
+  src: url(assets/fonts/apple/AppleGaramond-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Suisse";
+  src: url(assets/fonts/suisse/SuisseIntl-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Suisse";
+  src: url(assets/fonts/suisse/SuisseIntl-Regular.otf) format("opentype");
+}
+
 html {
-  font-family: "ubuntu";
-  font-size: 1.2rem;
+  font-family: "Suisse";
+  font-size: 1rem;
 }
 
 .logo-ipmaras {
-  width: 150px;
+  width: 120px;
 }
 
 .navbar {
   background-color: var(--bg);
   color: black;
+}
+
+.navbar .btn {
+  background-color: #01b679;
+  border-radius: 50px;
+  border: none;
 }
 
 .mynavbar {
@@ -24,7 +45,8 @@ html {
 }
 
 .navbar .navbar-nav {
-  font-family: "ubuntu";
+  padding-top: 4px;
+  font-family: "Suisse";
   font-size: 1rem;
   font-weight: bold;
 }
@@ -38,7 +60,7 @@ html {
     #91a8b3,
     #f1601e
   );
-  font-family: "ubuntu";
+  font-family: "Apple Garamond";
   min-height: 100vh;
   padding-top: 8rem;
   padding-bottom: 4rem;
@@ -53,19 +75,21 @@ html {
   );
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 3.2rem;
-  font-family: "archivo black";
+  font-size: 4rem;
+  font-family: "Apple Garamond";
 }
 
 .banner h2 {
   color: black;
   font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 .banner P {
   color: black;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
+  font-family: "Suisse";
 }
 
 .banner a {
@@ -95,12 +119,12 @@ html {
 }
 
 .card .card-header {
-  font-family: "ubuntu";
+  font-family: "Suisse";
   font-size: 1.4rem;
 }
 
 .santunan .card .card-body h5 {
-  font-family: "archivo black";
+  font-family: "Apple Garamond";
   color: black;
   font-size: 2.5rem;
 }
@@ -124,20 +148,15 @@ html {
 }
 
 .santunan .card .card-footer p {
-  font-family: "ubuntu";
+  font-family: "Suisse";
   color: var(--bg);
   padding-top: 0.5rem;
 }
 
-.card .bank-bca {
-  width: 55px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.card .bank {
+  width: 80px;
 }
 
-.card .bank {
-  width: 65px;
-}
 .donasi {
   min-height: 100vh;
   padding-top: 8rem;
@@ -146,7 +165,7 @@ html {
 
 .donasi .card-body h5 {
   font-size: 2rem;
-  font-family: "ubuntu";
+  font-family: "Suisse";
 }
 
 .donasi .card .card-body p {
@@ -156,7 +175,7 @@ html {
 
 .donasi .card-footer {
   font-size: 1.2rem;
-  font-family: "ubuntu";
+  font-family: "Suisse";
 }
 
 /* Media Queries */
@@ -202,5 +221,8 @@ html {
   }
   .logo-ipmaras {
     width: 100px;
+  }
+  .donasi .card-footer {
+    font-size: 1rem;
   }
 }
