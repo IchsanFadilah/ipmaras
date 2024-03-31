@@ -116,9 +116,14 @@ html {
   padding-top: 0.5rem;
 }
 
+.card .bank-bca {
+  width: 55px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .card .bank {
-  scale: 1.5;
-  width: 50px;
+  width: 65px;
 }
 
 .donasi .card-body h5 {
@@ -126,8 +131,13 @@ html {
   font-family: "ubuntu";
 }
 
+.donasi .card .card-body p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
 .donasi .card-footer p {
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-family: "ubuntu";
 }
 
@@ -162,6 +172,11 @@ html {
 @media (max-width: 576px) {
   html {
     font-size: 50%;
+  }
+  .banner,
+  .santunan,
+  .donasi {
+    min-height: 50vh;
   }
   .simply-countdown > .simply-section {
     padding: 40px;
