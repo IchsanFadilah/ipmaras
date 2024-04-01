@@ -161,6 +161,10 @@ html {
   border: 1px solid var(--bg);
 }
 
+.santunan .btn {
+  box-shadow: var(--shadow);
+}
+
 .santunan .card .card-footer p {
   font-family: "Suisse";
   color: var(--bg);
@@ -188,8 +192,20 @@ html {
 }
 
 .donasi .card-footer {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Suisse";
+}
+
+.footer .info img {
+  width: 155px;
+  position: relative;
+  align-items: center;
+}
+
+.footer {
+  font-family: "Suisse";
+  font-size: 1rem;
+  background-color: var(--bg);
 }
 
 /* Media Queries */
@@ -232,9 +248,6 @@ html {
   .simply-countdown > .simply-section {
     padding: 30px;
     margin: 5px;
-  }
-  .logo-ipmaras {
-    width: 100px;
   }
   .donasi .card-footer {
     font-size: 1rem;
