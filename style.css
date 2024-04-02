@@ -197,7 +197,7 @@ html {
 }
 
 .footer .info img {
-  width: 155px;
+  width: 150px;
   position: relative;
   align-items: center;
 }
@@ -253,6 +253,6 @@ html {
     font-size: 1rem;
   }
   .footer .info img {
-    width: 90px;
+    width: 50%;
   }
 }
