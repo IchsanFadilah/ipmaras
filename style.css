@@ -252,4 +252,7 @@ html {
   .donasi .card-footer {
     font-size: 1rem;
   }
+  .footer .info img {
+    width: 90px;
+  }
 }
