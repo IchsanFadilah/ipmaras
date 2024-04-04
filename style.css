@@ -106,7 +106,8 @@ html {
 }
 
 .banner img {
-  padding-left: 80px;
+  position: relative;
+  object-fit: cover;
 }
 
 .santunan a {
