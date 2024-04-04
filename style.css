@@ -59,14 +59,14 @@ html {
 }
 
 .banner {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom right,
     #dbc9ff,
     #f7dbe3,
     #01b679,
     #91a8b3,
     #f1601e
-  );
+  ); */
   font-family: "Apple Garamond";
   min-height: 100vh;
   padding-top: 1rem;
