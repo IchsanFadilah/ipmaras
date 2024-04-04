@@ -108,7 +108,6 @@ html {
 .banner img {
   padding-left: 70px;
   position: relative;
-  object-position: center;
   object-fit: cover;
 }
 
