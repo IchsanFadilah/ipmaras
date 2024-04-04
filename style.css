@@ -77,12 +77,10 @@ html {
     #91a8b3,
     #f1601e
   ); */
-  position: relative;
   font-family: "Apple Garamond";
   min-height: 100vh;
   padding-top: 61px;
   padding-bottom: 4rem;
-  offset-position: top;
 }
 
 .banner #image {
@@ -105,16 +103,6 @@ html {
   font-size: 16pt;
   font-family: "Suisse";
   padding-top: 26px;
-}
-
-.banner img {
-  /* justify-content: center; */
-  /* display: flex;
-  position: relative;
-  object-position: center; */
-  height: 97%;
-  padding-left: 30px;
-  /* object-fit: cover; */
 }
 
 .santunan a {
