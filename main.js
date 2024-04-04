@@ -38,11 +38,11 @@ function bgChg() {
   // let bgColor1 = ["#f1601e", "#dbc9ff", "#f7dbe3", "#91a8b3", "#01b679"];
   let bgColor = ["#01b679", "#91a8b3", "#f1601e", "#dbc9ff", "#f7dbe3"];
   let images = [
-    "assets/img/1.png",
-    "assets/img/2.png",
-    "assets/img/3.png",
-    "assets/img/4.png",
-    "assets/img/5.png",
+    "assets/img/Illustrasi-1.png",
+    "assets/img/Illustrasi-2.png",
+    "assets/img/Illustrasi-3.png",
+    "assets/img/Illustrasi-4.png",
+    "assets/img/Illustrasi-5.png",
   ];
   bgColors.style.backgroundColor = bgColor[bg];
   imgIl.setAttribute("src", images[il]);
