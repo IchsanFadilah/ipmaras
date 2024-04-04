@@ -50,7 +50,7 @@ html {
 }
 
 .mynavbar {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  /* background-color: rgba(255, 255, 255, 0.3) !important; */
   backdrop-filter: blur(4px);
 }
 
@@ -77,10 +77,12 @@ html {
     #91a8b3,
     #f1601e
   ); */
+  position: relative;
   font-family: "Apple Garamond";
   min-height: 100vh;
   padding-top: 61px;
   padding-bottom: 4rem;
+  offset-position: top;
 }
 
 .banner #image {
@@ -106,8 +108,13 @@ html {
 }
 
 .banner img {
-  padding-left: 70px;
-  object-fit: cover;
+  justify-content: center;
+  /* display: flex;
+  position: relative;
+  object-position: center; */
+  height: 97%;
+  padding-left: 30px;
+  /* object-fit: cover; */
 }
 
 .santunan a {
