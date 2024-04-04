@@ -24,7 +24,8 @@ html {
   font-size: 1rem;
 }
 
-.navbar .container-fluid {
+.navbar .container-fluid,
+.banner .container-fluid {
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -89,7 +90,7 @@ html {
 
 .banner h1 {
   color: black;
-  font-size: 90pt;
+  font-size: 85pt;
   font-family: "Apple Garamond";
   letter-spacing: normal;
   line-height: 1;
@@ -104,8 +105,8 @@ html {
   padding-top: 26px;
 }
 
-.banner .container-fluid {
-  margin-left: 50px;
+.banner img {
+  padding-left: 80px;
 }
 
 .santunan a {
