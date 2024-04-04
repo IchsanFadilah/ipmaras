@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Apple Garamond";
-  src: url(assets/fonts/apple/AppleGaramond-Bold.woff) format("woff");
+  src: url(assets/fonts/apple/AppleGaramond.woff) format("woff");
 }
 
 @font-face {
@@ -15,8 +15,8 @@
 }
 
 @font-face {
-  font-family: "Suisse";
-  src: url(assets/fonts/suisse/SuisseIntl-Regular.otf) format("opentype");
+  font-family: "Suisse_bold";
+  src: url(assets/fonts/suisse/SuisseIntl-Bold.otf) format("opentype");
 }
 
 html {
@@ -24,19 +24,28 @@ html {
   font-size: 1rem;
 }
 
+.container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .logo-ipmaras {
-  width: 120px;
+  height: 30px;
 }
 
 .navbar {
   background-color: var(--bg);
   color: black;
+  /* height: 90px; */
 }
 
 .navbar .btn {
   background-color: #01b679;
   border-radius: 50px;
   border: none;
+  font-family: "Suisse";
+  font-size: 16pt;
+  margin-block: 10px;
 }
 
 .mynavbar {
@@ -47,14 +56,14 @@ html {
 .navbar .navbar-nav {
   padding-top: 4px;
   font-family: "Suisse";
-  font-size: 1rem;
+  font-size: 16pt;
   font-weight: bold;
 }
 
 .nav-link {
   color: black;
   font-family: "Suisse";
-  font-size: 1rem;
+  font-size: 16pt;
   margin-left: 1.2rem;
 }
 
@@ -69,50 +78,39 @@ html {
   ); */
   font-family: "Apple Garamond";
   min-height: 100vh;
-  padding-top: 1rem;
+  padding-top: 61px;
   padding-bottom: 4rem;
 }
 
 .banner #image {
-  width: 20%;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 1rem;
+  width: 100;
+  position: relative;
 }
 
 .banner h1 {
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 3rem;
-  font-family: "Apple Garamond";
-}
-
-.banner h2 {
   color: black;
-  font-size: 2rem;
-  padding-bottom: 1rem;
+  font-size: 90pt;
+  font-family: "Apple Garamond";
+  letter-spacing: normal;
+  line-height: 1;
+  padding-top: 61px;
+  padding-bottom: 26px;
 }
 
 .banner P {
   color: black;
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 16pt;
   font-family: "Suisse";
+  padding-top: 26px;
 }
 
-.banner a {
+.santunan a {
   background-color: var(--bg);
   color: #16a85c;
   box-shadow: var(--shadow);
 }
 
-.banner a:hover {
+.santunan a:hover {
   background-color: #16a85c;
   color: var(--bg);
   border: 1px solid var(--bg);
@@ -123,6 +121,20 @@ html {
   min-height: 100vh;
   padding-top: 8rem;
   padding-bottom: 4rem;
+}
+
+.santunan .btn {
+  background-color: var(--green);
+  color: var(--bg);
+  font-size: 16pt;
+  font-family: "suisse";
+}
+
+.santunan .btn:hover {
+  background-color: var(--bg);
+  color: var(--green);
+  font-size: 16pt;
+  font-family: "suisse";
 }
 
 .card {
@@ -254,5 +266,11 @@ html {
   }
   .footer .info img {
     width: 50%;
+  }
+  .navbar .nav-link {
+    font-size: 80%;
+  }
+  .navbar .btn {
+    font-size: 200%;
   }
 }
