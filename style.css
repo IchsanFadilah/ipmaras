@@ -108,7 +108,7 @@ html {
 }
 
 .banner img {
-  justify-content: center;
+  /* justify-content: center; */
   /* display: flex;
   position: relative;
   object-position: center; */
