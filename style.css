@@ -24,7 +24,7 @@ html {
   font-size: 1rem;
 }
 
-.container-fluid {
+.navbar .container-fluid {
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -102,6 +102,10 @@ html {
   font-size: 16pt;
   font-family: "Suisse";
   padding-top: 26px;
+}
+
+.banner .container-fluid {
+  margin-left: 50px;
 }
 
 .santunan a {
