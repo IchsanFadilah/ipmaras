@@ -21,7 +21,7 @@
 
 html {
   font-family: "Suisse";
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 .navbar .container-fluid,
@@ -84,7 +84,7 @@ html {
 }
 
 .banner #image {
-  width: 100;
+  width: 100%;
   position: relative;
 }
 
