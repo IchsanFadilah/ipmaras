@@ -247,6 +247,15 @@ html {
     padding: 45px;
     margin: 5px;
   }
+  .banner h1 {
+    font-size: 55pt;
+  }
+  .banner p {
+    font-size: 14pt;
+  }
+  .banner #image {
+    width: 80%;
+  }
 }
 
 /* Phone */
@@ -259,6 +268,19 @@ html {
   .donasi {
     min-height: 50vh;
   }
+
+  .banner h1 {
+    font-size: 50pt;
+  }
+
+  .banner p {
+    font-size: 12pt;
+  }
+
+  .banner #image {
+    width: 80%;
+  }
+
   .simply-countdown > .simply-section {
     padding: 30px;
     margin: 5px;
