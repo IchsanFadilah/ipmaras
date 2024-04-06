@@ -17,15 +17,16 @@
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
     <script src="countdown/simplyCountdown.min.js"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top mynavbar">
-        <div class="container">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="assets/logo.svg" alt="Logo Ipmaras" class="logo-ipmaras "> </img>
+                <img src="assets/logo.svg" alt="Logo Ipmaras" class="logo-ipmaras "></img>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,9 +36,9 @@
                 <div class="navbar-nav">
                     <a class="nav-link" href="#">Beranda</a>
                     <a class="nav-link" href="#">Tentang Kami</a>
-                    <a class="nav-link" href="#">Kegiatan</a>
+                    <a class="nav-link" href="/kegiatan.html">Kegiatan</a>
                 </div>
-                <button class="ms-auto px-4 btn btn-primary" href="/">Contact Us</button>
+                <button class="ms-auto px-4 py-2 btn btn-primary" href="/">Contact Us</button>
             </div>
         </div>
     </nav>
@@ -47,14 +48,62 @@
     <section id="kegiatan" class="kegiatan">
 
     </section>
-
-
     <!-- End Kegiatan -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <!-- Footer -->
+    <footer class="footer text-dark pt-2 pb-4">
+        <div class="container text-md-left">
+            <div class="row text-left text-md-left">
+                <div class="info col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <img class="logo items-center justify-content-center d-flex" src="assets/logo.svg"
+                        alt="Logo Ipmaras">
+                    <hr class="mb-4">
+                    <p>Organisasi kepemudaan yang bergerak di bidang sosial, keagamaan, pendidikan, olahraga, dan sosial
+                        & budaya</p>
+                </div>
+                <div class="tautan col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Tautan</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Beranda</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Tentang Kami</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Kegiatan</a>
+                    </p>
+                </div>
+                <div class="kategori col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-dark">Kategori</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Sosial</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Keagamaan</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Olahraga</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Pendidikan</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark" style="text-decoration: none;">Sosial & Budaya</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-dark">Kontak</h5>
+                    <hr class="mb-4">
+                    <p>ipmaras@ipmaras.site</p>
+                    <p>Kp. Cibuntu Kaum RT 002/001 Desa Cibuntu, Kec. Ciampea, Kab. Bogor, Jawa Barat.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
 </body>
 
 </html>
